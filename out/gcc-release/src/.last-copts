@@ -1,0 +1,1 @@
+-O3 -DNDEBUG=1 -MMD -MP -MF .d  -fPIC  -fno-omit-frame-pointer -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_PARSIM -DWITH_NETBUILDER  -DINET_IMPORT -I/usr/include/curl -I../../inet/src -I/home/aiden178/omnetpp-5.6.2/include

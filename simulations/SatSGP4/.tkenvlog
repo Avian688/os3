@@ -1,0 +1,515 @@
+---- 20210216-19:25:51 ---------------------------------------------------------
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{1 0} {0 1} {0 0}' '-tags' 'fig f1 ptr0000000002572fe0'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{1 0} {0 1} {0 0}' '-tags' 'fig f2 ptr00000000025745a0'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{1 0} {0 1} {0 0}' '-tags' 'fig f3 ptr000000000417d320'
+
+
+
+Tcl error: moduleinspector.cc#244: tagOrId "f2" doesn't match any items
+    while executing
+".network.c raise submodext f2"
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{1 0} {0 1} {0 0}' '-tags' 'fig f1 ptr0000000002572fe0'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{1 0} {0 1} {0 0}' '-tags' 'fig f2 ptr00000000025745a0'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{1 0} {0 1} {0 0}' '-tags' 'fig f3 ptr000000000417d320'
+
+
+
+Tcl error: moduleinspector.cc#244: tagOrId "f2" doesn't match any items
+    while executing
+".network.c raise submodext f2"
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {0 0}' '-tags' 'fig f1 ptr0000000002572fe0'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {0 0}' '-tags' 'fig f2 ptr00000000025745a0'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {0 0}' '-tags' 'fig f3 ptr000000000417d320'
+
+
+
+Tcl error: moduleinspector.cc#244: tagOrId "f2" doesn't match any items
+    while executing
+".network.c raise submodext f2"
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {0 0}' '-tags' 'fig f1 ptr0000000002572fe0'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {0 0}' '-tags' 'fig f614 ptr000000000d2eef10'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {0 0}' '-tags' 'fig f615 ptr000000000d2eefc0'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {0 0}' '-tags' 'fig f736 ptr000000000d2ef120'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {0 0}' '-tags' 'fig f2 ptr00000000025745a0'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {0 0}' '-tags' 'fig f3 ptr000000000417d320'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {14479.3 27527.9}' '-tags' 'fig f616 ptr000000000d1ed460'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {27306.5 8360.1}' '-tags' 'fig f618 ptr000000000d1ecec0'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {23527.9 29938}' '-tags' 'fig f620 ptr000000000d1ec140'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {12496.3 22800.3}' '-tags' 'fig f622 ptr000000000d1ec6e0'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {21937 18740.6}' '-tags' 'fig f624 ptr000000000d1ee540'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {27978.8 8455.88}' '-tags' 'fig f626 ptr000000000d1eca40'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {30760.9 8719.46}' '-tags' 'fig f628 ptr000000000d1ed100'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {25218.3 14967.5}' '-tags' 'fig f630 ptr000000000d1ed220'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {23141.4 26691.9}' '-tags' 'fig f632 ptr000000000d1ed340'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {1499.81 12730.1}' '-tags' 'fig f634 ptr000000000d1ed580'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {16660.2 15958.6}' '-tags' 'fig f636 ptr000000000d1f2320'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {12156.5 31237.9}' '-tags' 'fig f638 ptr000000000d1f28c0'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {27860 18071.2}' '-tags' 'fig f640 ptr000000000d1efbc0'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {24955.1 31618.9}' '-tags' 'fig f642 ptr000000000d1f0700'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {34670.4 16488.9}' '-tags' 'fig f644 ptr000000000d1f05e0'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {426.065 8806.62}' '-tags' 'fig f646 ptr000000000d1f1b40'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {32072.9 23213}' '-tags' 'fig f648 ptr000000000d1f29e0'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {34906.8 21672.2}' '-tags' 'fig f650 ptr000000000d1f0820'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {10137.8 12836.8}' '-tags' 'fig f652 ptr000000000d1f1ea0'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {4886.42 8380.67}' '-tags' 'fig f654 ptr000000000d1f1000'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {33274.4 20062.9}' '-tags' 'fig f656 ptr000000000d1f0a60'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {38257 10420.7}' '-tags' 'fig f658 ptr000000000d1efe00'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {35642.9 14323.8}' '-tags' 'fig f660 ptr000000000d1f27a0'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {30236.6 27067.2}' '-tags' 'fig f662 ptr000000000d1f20e0'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {11840.3 16322.3}' '-tags' 'fig f664 ptr000000000d1f17e0'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {11292.4 11261.9}' '-tags' 'fig f666 ptr000000000d1ef2c0'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {13121 19602.1}' '-tags' 'fig f668 ptr000000000d1ef080'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {32590.4 29808.8}' '-tags' 'fig f670 ptr000000000d1eff20'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {27232.4 30551.9}' '-tags' 'fig f672 ptr000000000d1f1c60'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {38046.8 13907.7}' '-tags' 'fig f674 ptr000000000d1f2680'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {14544.4 23293.9}' '-tags' 'fig f676 ptr000000000d1f1120'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {9799.81 12295.5}' '-tags' 'fig f678 ptr000000000d1f2b00'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {15582.3 20222}' '-tags' 'fig f680 ptr000000000d1f0040'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {14591.6 23421.1}' '-tags' 'fig f682 ptr000000000d1f1fc0'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {3747.03 18360.8}' '-tags' 'fig f684 ptr000000000d1ee9c0'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {13204.9 14403.3}' '-tags' 'fig f686 ptr000000000d1f1240'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {1126.9 9766.36}' '-tags' 'fig f688 ptr000000000d1f1900'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {36154.8 18361.9}' '-tags' 'fig f690 ptr000000000d1f1480'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {5244.9 8181.46}' '-tags' 'fig f692 ptr000000000d1f0ee0'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {36654.1 17044.7}' '-tags' 'fig f694 ptr000000000d1f0940'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {37535.6 15025.8}' '-tags' 'fig f696 ptr000000000d1f0160'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {33289.6 25506.1}' '-tags' 'fig f698 ptr000000000d1f1360'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {25671.8 31808.2}' '-tags' 'fig f700 ptr000000000d1f2c20'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {2616.23 10440.6}' '-tags' 'fig f702 ptr000000000d1f16c0'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {37756.9 20016}' '-tags' 'fig f704 ptr000000000d1f2d40'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {8217.56 8196.83}' '-tags' 'fig f706 ptr000000000d1f0b80'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {29504.7 31593.4}' '-tags' 'fig f708 ptr000000000d1ef500'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {11872.2 9620.09}' '-tags' 'fig f710 ptr000000000d1ef860'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {31574.8 28424.3}' '-tags' 'fig f712 ptr000000000d1ef3e0'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {3610.6 11099.8}' '-tags' 'fig f714 ptr000000000d1eef60'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {20022.2 8707.85}' '-tags' 'fig f716 ptr000000000d1f1a20'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {11807.1 10951.1}' '-tags' 'fig f718 ptr000000000d1f03a0'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {13324.9 26989.8}' '-tags' 'fig f720 ptr000000000d1eee40'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {12532.3 31888.6}' '-tags' 'fig f722 ptr000000000d1f15a0'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {33120.9 27785.6}' '-tags' 'fig f724 ptr000000000d1f0280'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {36980.3 25451.8}' '-tags' 'fig f726 ptr000000000d1f2440'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {14744.3 23442.5}' '-tags' 'fig f728 ptr000000000d1f0dc0'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {13405.1 20690.8}' '-tags' 'fig f730 ptr000000000d1f2200'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {16191.4 21784.4}' '-tags' 'fig f732 ptr000000000d1f1d80'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {9559.71 7008.07}' '-tags' 'fig f734 ptr000000000d1f2560'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {0 0}' '-tags' 'fig f737 ptr000000000d2edf40'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {0 0}' '-tags' 'fig f738 ptr000000000d2ee570'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {0 0}' '-tags' 'fig f739 ptr000000000d2ee780'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {0 0}' '-tags' 'fig f740 ptr000000000d2efcd0'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {0 0}' '-tags' 'fig f741 ptr000000000d2ed860'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {0 0}' '-tags' 'fig f742 ptr000000000d2edb20'
+
+
+
+Tcl error: tkutil.cc#525: unknown option "0 0 0 0"
+  while directly invoking Tcl command proc at 1
+  with args:  'dummy' 'create' 'group' '0 0 0 0' '-matrix' '{0.001 0} {0 0.001} {0 0}' '-tags' 'fig f743 ptr000000000d2ee990'
+
+
+
+Tcl error: moduleinspector.cc#244: tagOrId "f2" doesn't match any items
+    while executing
+".network.c raise submodext f2"
+
+
