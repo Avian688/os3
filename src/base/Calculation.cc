@@ -15,6 +15,7 @@
 
 #include "Calculation.h"
 
+#define _USE_MATH_DEFINES
 #include <cmath>
 #include <fstream>
 
@@ -127,12 +128,12 @@ void Calculation::handleMessage(cMessage* msg)
 
 double Calculation::rad2deg(const double& deg)
 {
-    return deg * 180 / PI;
+    return deg * 180 / M_PI;
 }
 
 double Calculation::deg2rad(const double& rad)
 {
-    return rad * PI / 180;
+    return rad * M_PI / 180;
 }
 
 double Calculation::calcFSL(const int& satIndex,     const double& lambda,  const double& latitude,
@@ -147,7 +148,7 @@ double Calculation::calcFSL(const int& satIndex,     const double& lambda,  cons
         alt = altitude;
 
     const double distance = sat->getDistance(latitude, longitude, alt);
-    const double FSL = 20 * std::log10((4 * PI * distance) / (lambda / 1000)); // lambda in m <-> distance in km
+    const double FSL = 20 * std::log10((4 * M_PI * distance) / (lambda / 1000)); // lambda in m <-> distance in km
     return FSL;
 }
 
