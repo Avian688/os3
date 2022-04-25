@@ -39,7 +39,7 @@ opp_run -m -l ../../src/os3 omnetpp.ini
 # Source Code Referencing
 If you use this code or want to cite its existence in your paper please use the following bibtex:
 ```
-@inproceedings{omnetpp-leosatellites-model,
+@inproceedings{omnetpp-os3-model,
   author = {Valentine, Aiden and Parisis, George},
   title = {{Developing and experimenting with LEO satellite constellations in OMNeT++}},
   booktitle = {Proceedings of the 8th OMNeT++ Community Summit Conference},
