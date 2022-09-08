@@ -35,7 +35,7 @@ public:
     // returns latitude
     double getLUTPositionY() const;
 
-    virtual Coord getCurrentPosition() override;
+    virtual const Coord& getCurrentPosition() override;
 
 protected:
     virtual void initialize(int) override;

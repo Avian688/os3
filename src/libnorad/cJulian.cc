@@ -90,7 +90,6 @@ void cJulian::initialize(int year, double day)
 {
     // 1582 A.D.: 10 days removed from calendar
     // 3000 A.D.: Arbitrary error checking limit
-    assert((year > 1582) && (year < 3000));
     assert((day >= 0.0) && (day <= 366.5));
 
     // Now calculate Julian date

@@ -2,7 +2,7 @@
 package os3.simulations.Validation;
 
 import os3.base.Satellite;
-import inet.physicallayer.contract.packetlevel.IRadioMedium;
+import inet.physicallayer.wireless.common.contract.packetlevel.IRadioMedium;
 import os3.base.CNI_OS3;
 import os3.base.Observer;
 

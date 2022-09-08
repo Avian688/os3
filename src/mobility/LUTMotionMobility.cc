@@ -40,7 +40,7 @@ double LUTMotionMobility::getLUTPositionY() const
     return latitude;
 }
 
-Coord LUTMotionMobility::getCurrentPosition()
+const Coord& LUTMotionMobility::getCurrentPosition()
 {
     //return Coord(longitude, latitude);
     return lastPosition;
