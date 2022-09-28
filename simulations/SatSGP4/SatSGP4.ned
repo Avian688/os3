@@ -14,8 +14,9 @@ network SatSGP4
         int numOfMCCs; // Number of Mission Control Centers
         @display("bgi=background_earth,s;bgb=2160,1080");
     submodules:
-        visualizer: <default("IntegratedCanvasVisualizer")> like IIntegratedVisualizer if hasVisualizer() {
-            @display("p=305.665,67.625`");
+        visualizer: <default(firstAvailableOrEmpty("IntegratedCanvasVisualizer"))> like IIntegratedVisualizer if typename != "" {
+            parameters:
+                @display("p=100,400;is=s");
         }
         satellite[numOfSats]: Satellite { 
             parameters:
