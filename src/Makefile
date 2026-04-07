@@ -2,25 +2,23 @@
 # OMNeT++/OMNEST Makefile for $(LIB_PREFIX)os3
 #
 # This file was generated with the command:
-#  opp_makemake --make-so -f --deep -KINET4_4_PROJ=../../inet4.4 -DINET_IMPORT -I/opt/homebrew/Cellar/curl/7.83.1/include/curl -I$$\(INET4_4_PROJ\)/src -L$$\(INET4_4_PROJ\)/src -lcurl -lINET$$\(D\)
+#  opp_makemake --make-so -f --deep -KINET4_5_PROJ=../../inet4.5 -DINET_IMPORT -I/opt/homebrew/opt/curl/include/curl -I$$\(INET4_5_PROJ\)/src -L$$\(INET4_5_PROJ\)/src -lcurl -lINET$$\(D\)
 #
 
 # Name of target to be created (-o option)
 TARGET_DIR = .
 TARGET_NAME = $(LIB_PREFIX)os3$(D)
 TARGET = $(TARGET_NAME)$(SHARED_LIB_SUFFIX)
-TARGET_IMPLIB = $(TARGET_NAME)$(IMPLIB_SUFFIX)
-TARGET_IMPDEF = $(TARGET_NAME)$(IMPDEF_SUFFIX)
 TARGET_FILES = $(TARGET_DIR)/$(TARGET)
 
 # C++ include paths (with -I)
-INCLUDE_PATH = -I/opt/homebrew/Cellar/curl/7.83.1/include/curl -I$(INET4_4_PROJ)/src
+INCLUDE_PATH = -I/opt/homebrew/opt/curl/include/curl -I$(INET4_5_PROJ)/src
 
 # Additional object and library files to link with
 EXTRA_OBJS =
 
 # Additional libraries (-L, -l options)
-LIBS = $(LDFLAG_LIBPATH)$(INET4_4_PROJ)/src  -lcurl -lINET$(D)
+LIBS = $(LDFLAG_LIBPATH)$(INET4_5_PROJ)/src  -lcurl -lINET$(D)
 
 # Output directory
 PROJECT_OUTPUT_DIR = ../out
@@ -57,7 +55,7 @@ MSGFILES =
 SMFILES =
 
 # Other makefile variables (-K)
-INET4_4_PROJ=../../inet4.4
+INET4_5_PROJ=../../inet4.5
 
 #------------------------------------------------------------------------------
 
@@ -78,7 +76,7 @@ include $(CONFIGFILE)
 # Simulation kernel and user interface libraries
 OMNETPP_LIBS = -loppenvir$D $(KERNEL_LIBS) $(SYS_LIBS)
 ifneq ($(PLATFORM),win32)
-LIBS += -Wl,-rpath,$(abspath $(INET4_4_PROJ)/src)
+LIBS += -Wl,-rpath,$(abspath $(INET4_5_PROJ)/src)
 endif
 
 COPTS = $(CFLAGS) $(IMPORT_DEFINES) -DINET_IMPORT $(INCLUDE_PATH) -I$(OMNETPP_INCL_DIR)
@@ -96,8 +94,11 @@ endif
 
 # On Windows, the target has additional file(s). An import lib and an optional debug symbol file is created too.
 ifeq ($(PLATFORM),win32)
+  TARGET_IMPLIB = $(TARGET_NAME)$(IMPLIB_SUFFIX)
+  TARGET_IMPDEF = $(TARGET_NAME)$(IMPDEF_SUFFIX)
   TARGET_FILES+= $(TARGET_DIR)/$(TARGET_IMPLIB)
   LDFLAGS+= $(LDFLAG_IMPLIB)$O/$(TARGET_IMPLIB)
+  OUT_TARGET_EXTRA_FILES = $O/$(TARGET_IMPLIB)
   ifeq ($(TOOLCHAIN_NAME),clang-msabi)
     ifeq ($(MODE),debug)
       TARGET_FILES+=$(TARGET_DIR)/$(TARGET_NAME).pdb
@@ -105,6 +106,7 @@ ifeq ($(PLATFORM),win32)
   else
     TARGET_FILES+= $(TARGET_DIR)/$(TARGET_IMPDEF)
     LDFLAGS+= $(LDFLAG_IMPDEF)$O/$(TARGET_IMPDEF)
+    OUT_TARGET_EXTRA_FILES+= $O/$(TARGET_IMPDEF)
   endif
 endif
 
@@ -126,7 +128,7 @@ ifeq ($(TOOLCHAIN_NAME),clang-msabi)
 $O/$(TARGET_NAME).pdb: $O/$(TARGET)
 endif
 
-$O/$(TARGET) $O/$(TARGET_IMPDEF) $O/$(TARGET_IMPLIB) &: $(OBJS)  $(wildcard $(EXTRA_OBJS)) Makefile $(CONFIGFILE)
+$O/$(TARGET) $(OUT_TARGET_EXTRA_FILES) &: $(OBJS)  $(wildcard $(EXTRA_OBJS)) Makefile $(CONFIGFILE)
 	@$(MKPATH) $O
 	@echo Creating shared library: $@
 	$(Q)$(SHLIB_LD) -o $O/$(TARGET) $(OBJS) $(EXTRA_OBJS) $(AS_NEEDED_OFF) $(WHOLE_ARCHIVE_ON) $(LIBS) $(WHOLE_ARCHIVE_OFF) $(OMNETPP_LIBS) $(LDFLAGS)
@@ -137,7 +139,9 @@ endif
 
 .PHONY: all clean cleanall depend msgheaders smheaders
 
-.SUFFIXES: .cc
+# disabling all implicit rules
+.SUFFIXES :
+.PRECIOUS : %_m.h %_m.cc
 
 $O/%.o: %.cc $(COPTS_FILE) | msgheaders smheaders
 	@$(MKPATH) $(dir $@)
@@ -146,11 +150,11 @@ $O/%.o: %.cc $(COPTS_FILE) | msgheaders smheaders
 
 %_m.cc %_m.h: %.msg
 	$(qecho) MSGC: $<
-	$(Q)$(MSGC) -s _m.cc -MD -MP -MF $O/$(basename $<)_m.h.d $(MSGCOPTS) $?
+	$(Q)$(MSGC) -s _m.cc -MD -MP -MF $O/$(basename $<)_m.h.d $(MSGCOPTS) $<
 
 %_sm.cc %_sm.h: %.sm
 	$(qecho) SMC: $<
-	$(Q)$(SMC) -c++ -suffix cc $(SMCOPTS) $?
+	$(Q)$(SMC) -c++ -suffix cc $(SMCOPTS) $<
 
 msgheaders: $(MSGFILES:.msg=_m.h)
 
