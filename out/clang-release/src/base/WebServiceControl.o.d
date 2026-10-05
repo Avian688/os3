@@ -1,6 +1,7 @@
 ../out/clang-release/src/base/WebServiceControl.o: \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX27.sdk/SDKSettings.json \
   base/WebServiceControl.cc base/WebServiceControl.h \
-  /Users/av288/omnetpp-6.3.0/include/omnetpp.h \
+  /Users/av288/omnetpp-6.4.0/include/omnetpp.h \
   /opt/homebrew/opt/curl/include/curl/curl.h \
   /opt/homebrew/opt/curl/include/curl/curlver.h \
   /opt/homebrew/opt/curl/include/curl/system.h \
@@ -11,8 +12,9 @@
   /opt/homebrew/opt/curl/include/curl/header.h \
   /opt/homebrew/opt/curl/include/curl/websockets.h \
   /opt/homebrew/opt/curl/include/curl/mprintf.h
+/Library/Developer/CommandLineTools/SDKs/MacOSX27.sdk/SDKSettings.json:
 base/WebServiceControl.h:
-/Users/av288/omnetpp-6.3.0/include/omnetpp.h:
+/Users/av288/omnetpp-6.4.0/include/omnetpp.h:
 /opt/homebrew/opt/curl/include/curl/curl.h:
 /opt/homebrew/opt/curl/include/curl/curlver.h:
 /opt/homebrew/opt/curl/include/curl/system.h:

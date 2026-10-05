@@ -9,6 +9,7 @@
 
 #include <cstdio>
 #include <cassert>
+#include <cstdlib>
 
 // Note: The column offsets are ZERO based.
 
@@ -99,7 +100,7 @@ double cTle::getField(eField   fld,
 
       if (m_mapCache.find(key) == m_mapCache.end()) {
          // Value not in cache; add it
-         double valNative = atof(m_Field[fld].c_str());
+         double valNative = std::atof(m_Field[fld].c_str());
          double valConv   = ConvertUnits(valNative, fld, units);
          m_mapCache[key]  = valConv;
 

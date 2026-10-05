@@ -1,4 +1,5 @@
 ../out/clang-release/src/mobility/SatSGP4Mobility.o: \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX27.sdk/SDKSettings.json \
   mobility/SatSGP4Mobility.cc mobility/SatSGP4Mobility.h \
   ../../inet4.5/src/inet/mobility/base/LineSegmentsMobilityBase.h \
   ../../inet4.5/src/inet/mobility/base/MovingMobilityBase.h \
@@ -7,7 +8,7 @@
   ../../inet4.5/src/inet/common/INETDefs.h \
   ../../inet4.5/src/inet/common/precompiled_release.h \
   ../../inet4.5/src/inet/common/precompiled.h \
-  /Users/av288/omnetpp-6.3.0/include/omnetpp.h \
+  /Users/av288/omnetpp-6.4.0/include/omnetpp.h \
   ../../inet4.5/src/inet/opp_defines.h ../../inet4.5/src/inet/features.h \
   ../../inet4.5/src/inet/common/Compat.h \
   ../../inet4.5/src/inet/common/InitStages.h \
@@ -24,6 +25,7 @@
   mobility/../libnorad/cJulian.h mobility/../libnorad/globals.h \
   mobility/Norad.h mobility/../libnorad/cEci.h \
   mobility/../libnorad/ccoord.h mobility/../libnorad/cVector.h
+/Library/Developer/CommandLineTools/SDKs/MacOSX27.sdk/SDKSettings.json:
 mobility/SatSGP4Mobility.h:
 ../../inet4.5/src/inet/mobility/base/LineSegmentsMobilityBase.h:
 ../../inet4.5/src/inet/mobility/base/MovingMobilityBase.h:
@@ -32,7 +34,7 @@ mobility/SatSGP4Mobility.h:
 ../../inet4.5/src/inet/common/INETDefs.h:
 ../../inet4.5/src/inet/common/precompiled_release.h:
 ../../inet4.5/src/inet/common/precompiled.h:
-/Users/av288/omnetpp-6.3.0/include/omnetpp.h:
+/Users/av288/omnetpp-6.4.0/include/omnetpp.h:
 ../../inet4.5/src/inet/opp_defines.h:
 ../../inet4.5/src/inet/features.h:
 ../../inet4.5/src/inet/common/Compat.h:

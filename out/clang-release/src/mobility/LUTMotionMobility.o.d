@@ -1,6 +1,7 @@
 ../out/clang-release/src/mobility/LUTMotionMobility.o: \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX27.sdk/SDKSettings.json \
   mobility/LUTMotionMobility.cc mobility/LUTMotionMobility.h \
-  /Users/av288/omnetpp-6.3.0/include/omnetpp.h \
+  /Users/av288/omnetpp-6.4.0/include/omnetpp.h \
   ../../inet4.5/src/inet/mobility/static/StationaryMobility.h \
   ../../inet4.5/src/inet/mobility/base/StationaryMobilityBase.h \
   ../../inet4.5/src/inet/mobility/base/MobilityBase.h \
@@ -21,8 +22,9 @@
   ../../inet4.5/src/inet/common/Units.h \
   ../../inet4.5/src/inet/common/geometry/common/Quaternion.h \
   ../../inet4.5/src/inet/mobility/contract/IMobility.h
+/Library/Developer/CommandLineTools/SDKs/MacOSX27.sdk/SDKSettings.json:
 mobility/LUTMotionMobility.h:
-/Users/av288/omnetpp-6.3.0/include/omnetpp.h:
+/Users/av288/omnetpp-6.4.0/include/omnetpp.h:
 ../../inet4.5/src/inet/mobility/static/StationaryMobility.h:
 ../../inet4.5/src/inet/mobility/base/StationaryMobilityBase.h:
 ../../inet4.5/src/inet/mobility/base/MobilityBase.h:

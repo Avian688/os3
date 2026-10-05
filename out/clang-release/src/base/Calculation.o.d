@@ -1,6 +1,8 @@
-../out/clang-release/src/base/Calculation.o: base/Calculation.cc \
-  base/Calculation.h /Users/av288/omnetpp-6.3.0/include/omnetpp.h \
-  base/WebServiceControl.h /opt/homebrew/opt/curl/include/curl/curl.h \
+../out/clang-release/src/base/Calculation.o: \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX27.sdk/SDKSettings.json \
+  base/Calculation.cc base/Calculation.h \
+  /Users/av288/omnetpp-6.4.0/include/omnetpp.h base/WebServiceControl.h \
+  /opt/homebrew/opt/curl/include/curl/curl.h \
   /opt/homebrew/opt/curl/include/curl/curlver.h \
   /opt/homebrew/opt/curl/include/curl/system.h \
   /opt/homebrew/opt/curl/include/curl/easy.h \
@@ -31,8 +33,9 @@
   ../../inet4.5/src/inet/common/Units.h \
   ../../inet4.5/src/inet/common/geometry/common/Quaternion.h \
   ../../inet4.5/src/inet/mobility/contract/IMobility.h
+/Library/Developer/CommandLineTools/SDKs/MacOSX27.sdk/SDKSettings.json:
 base/Calculation.h:
-/Users/av288/omnetpp-6.3.0/include/omnetpp.h:
+/Users/av288/omnetpp-6.4.0/include/omnetpp.h:
 base/WebServiceControl.h:
 /opt/homebrew/opt/curl/include/curl/curl.h:
 /opt/homebrew/opt/curl/include/curl/curlver.h:

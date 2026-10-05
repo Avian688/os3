@@ -1,4 +1,5 @@
 ../out/clang-release/src/mobility/SatSGP4FisheyeMobility.o: \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX27.sdk/SDKSettings.json \
   mobility/SatSGP4FisheyeMobility.cc mobility/SatSGP4FisheyeMobility.h \
   mobility/SatSGP4Mobility.h \
   ../../inet4.5/src/inet/mobility/base/LineSegmentsMobilityBase.h \
@@ -8,7 +9,7 @@
   ../../inet4.5/src/inet/common/INETDefs.h \
   ../../inet4.5/src/inet/common/precompiled_release.h \
   ../../inet4.5/src/inet/common/precompiled.h \
-  /Users/av288/omnetpp-6.3.0/include/omnetpp.h \
+  /Users/av288/omnetpp-6.4.0/include/omnetpp.h \
   ../../inet4.5/src/inet/opp_defines.h ../../inet4.5/src/inet/features.h \
   ../../inet4.5/src/inet/common/Compat.h \
   ../../inet4.5/src/inet/common/InitStages.h \
@@ -25,6 +26,7 @@
   mobility/../libnorad/cEci.h mobility/../libnorad/ccoord.h \
   mobility/../libnorad/globals.h mobility/../libnorad/cVector.h \
   mobility/../libnorad/cJulian.h
+/Library/Developer/CommandLineTools/SDKs/MacOSX27.sdk/SDKSettings.json:
 mobility/SatSGP4FisheyeMobility.h:
 mobility/SatSGP4Mobility.h:
 ../../inet4.5/src/inet/mobility/base/LineSegmentsMobilityBase.h:
@@ -34,7 +36,7 @@ mobility/SatSGP4Mobility.h:
 ../../inet4.5/src/inet/common/INETDefs.h:
 ../../inet4.5/src/inet/common/precompiled_release.h:
 ../../inet4.5/src/inet/common/precompiled.h:
-/Users/av288/omnetpp-6.3.0/include/omnetpp.h:
+/Users/av288/omnetpp-6.4.0/include/omnetpp.h:
 ../../inet4.5/src/inet/opp_defines.h:
 ../../inet4.5/src/inet/features.h:
 ../../inet4.5/src/inet/common/Compat.h:

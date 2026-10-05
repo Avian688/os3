@@ -1,6 +1,8 @@
-../out/clang-release/src/base/Observer.o: base/Observer.cc \
-  base/Observer.h /Users/av288/omnetpp-6.3.0/include/omnetpp.h \
-  base/Calculation.h base/../mobility/SatSGP4Mobility.h \
+../out/clang-release/src/base/Observer.o: \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX27.sdk/SDKSettings.json \
+  base/Observer.cc base/Observer.h \
+  /Users/av288/omnetpp-6.4.0/include/omnetpp.h base/Calculation.h \
+  base/../mobility/SatSGP4Mobility.h \
   ../../inet4.5/src/inet/mobility/base/LineSegmentsMobilityBase.h \
   ../../inet4.5/src/inet/mobility/base/MovingMobilityBase.h \
   ../../inet4.5/src/inet/mobility/base/MobilityBase.h \
@@ -22,8 +24,9 @@
   ../../inet4.5/src/inet/common/geometry/common/Quaternion.h \
   ../../inet4.5/src/inet/mobility/contract/IMobility.h \
   base/../mobility/SatSGP4FisheyeMobility.h
+/Library/Developer/CommandLineTools/SDKs/MacOSX27.sdk/SDKSettings.json:
 base/Observer.h:
-/Users/av288/omnetpp-6.3.0/include/omnetpp.h:
+/Users/av288/omnetpp-6.4.0/include/omnetpp.h:
 base/Calculation.h:
 base/../mobility/SatSGP4Mobility.h:
 ../../inet4.5/src/inet/mobility/base/LineSegmentsMobilityBase.h:

@@ -1,5 +1,7 @@
-../out/clang-debug/src/base/UserConfig.o: base/UserConfig.cc \
-  base/UserConfig.h /Users/av288/omnetpp-6.3.0/include/omnetpp.h \
+../out/clang-debug/src/base/UserConfig.o: \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX27.sdk/SDKSettings.json \
+  base/UserConfig.cc base/UserConfig.h \
+  /Users/av288/omnetpp-6.4.0/include/omnetpp.h \
   base/../mobility/SatSGP4Mobility.h \
   ../../inet4.5/src/inet/mobility/base/LineSegmentsMobilityBase.h \
   ../../inet4.5/src/inet/mobility/base/MovingMobilityBase.h \
@@ -22,8 +24,9 @@
   ../../inet4.5/src/inet/common/geometry/common/Quaternion.h \
   ../../inet4.5/src/inet/mobility/contract/IMobility.h \
   base/../mobility/SatSGP4FisheyeMobility.h
+/Library/Developer/CommandLineTools/SDKs/MacOSX27.sdk/SDKSettings.json:
 base/UserConfig.h:
-/Users/av288/omnetpp-6.3.0/include/omnetpp.h:
+/Users/av288/omnetpp-6.4.0/include/omnetpp.h:
 base/../mobility/SatSGP4Mobility.h:
 ../../inet4.5/src/inet/mobility/base/LineSegmentsMobilityBase.h:
 ../../inet4.5/src/inet/mobility/base/MovingMobilityBase.h:
